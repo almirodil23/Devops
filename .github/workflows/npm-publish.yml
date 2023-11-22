@@ -24,5 +24,4 @@ jobs:
           heroku_app_name: "devosdeusto"
           heroku_email: "alvaroados4b16@gmail.com"
 
-      - name: Run Node.js app
-        run: node app.js
+    
