@@ -1,3 +1,4 @@
+
 name: Node.js
 
 on:
@@ -21,7 +22,5 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.14
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: "devosdeusto"
+          heroku_app_name: "ayuntamiento"
           heroku_email: "alvaroados4b16@gmail.com"
-
-    
